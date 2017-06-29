@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="validacao.js"></script>
+    </head>
+    <body>
+        <form id="contato" name="nomeFormulario" method="post" action="">
+            <table width="500" border="5" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td width="105" align="left" valign="middle">Nome:</td>
+                    <td width="389"><input name="nomeForm" type="text" id="nome" size="50"></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="middle">Email</td>
+                    <td><input name="emailForm" type="text" id="email" size="50"></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="middle">Telefone:</td>
+                    <td><input name="telForm" style="text" id="telefone" size="15"></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="middle"><br><br>Estado:</td>
+                    <td><select name="estadoForm">
+                            <option value="" selected>Estado</option>
+                            <option value="ac">AC</option>
+                            <option value="al">AL</option>
+                            <option value="am">AM</option>
+                            <option value="ba">BA</option>
+                            <option value="ce">CE</option>
+                            <option value="df">DF</option>
+                            <option value="es">ES</option>
+                            <option value="go">GO</option>
+                            <option value="ma">MA</option>
+                            <option value="mg">MG</option>
+                            <option value="ms">MS</option>
+                            <option value="mt">MT</option>
+                            <option value="pa">PA</option>
+                            <option value="pb">PB</option>
+                            <option value="pe">PE</option>
+                            <option value="pi">PE</option>
+                            <option value="pr">PR</option>
+                            <option value="rj">RJ</option>
+                            <option value="rn">RN</option>
+                            <option value="ro">RO</option>
+                            <option value="rr">RR</option>
+                            <option value="rs">RS</option>
+                            <option value="sc">SC</option>
+                            <option value="sp">SP</option>
+                            <option value="to">TO</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center" valign="top"><input type="button" name="button" id="button" value="Enviar" onclick="validar()"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
